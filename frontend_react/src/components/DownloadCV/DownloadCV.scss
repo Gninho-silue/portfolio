@@ -1,0 +1,53 @@
+.download-cv-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 100;
+  
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  
+  padding: 1rem 1.5rem;
+  background: var(--gradient-primary);
+  color: var(--white-color);
+  border: none;
+  border-radius: var(--radius-xl);
+  
+  font-family: var(--font-base);
+  font-weight: 600;
+  font-size: 0.95rem;
+  
+  cursor: pointer;
+  box-shadow: var(--shadow-xl);
+  
+  transition: all 0.3s ease;
+  
+  svg {
+    font-size: 1.2rem;
+  }
+  
+  &:hover {
+    box-shadow: var(--shadow-2xl);
+    transform: translateY(-2px);
+  }
+  
+  @media screen and (max-width: 768px) {
+    bottom: 1rem;
+    right: 1rem;
+    padding: 0.75rem 1.25rem;
+    font-size: 0.85rem;
+    
+    span {
+      display: none;
+    }
+    
+    svg {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+body.dark .download-cv-btn {
+  box-shadow: 0 0 20px rgba(129, 140, 248, 0.3);
+}
