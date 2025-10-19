@@ -38,6 +38,7 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import Mon_cv from '../assets/Mon_cv.pdf';
+import spring from '../assets/spring-boot.png';
 
 const images = {
   email,
@@ -47,6 +48,7 @@ const images = {
   cpp,
   css,
   figma,
+  spring,
   flutter,
   Mon_cv,
   git,

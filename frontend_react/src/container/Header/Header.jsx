@@ -102,8 +102,8 @@ const Header = () => {
       >
         {[
           { img: images.react, name: 'React' },
-          { img: images.python, name: 'Python' },
-          { img: images.javascript, name: 'JavaScript' }
+          { img: images.spring , name: 'Spring Boot' },
+          { img: images.python, name: 'Python' }
         ].map((tech, index) => (
           <motion.div 
             className="circle-cmp app__flex" 

@@ -131,7 +131,7 @@ const About = () => {
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
                   <h4>2023 - 2025</h4>
-                  <p>Cycle Ingénieur - Génie Informatique</p>
+                  <p>Cycle Ingénieur - Génie Informatique (ENSAH)</p>
                   <span>Spécialisation développement logiciel</span>
                 </div>
               </div>
@@ -139,7 +139,7 @@ const About = () => {
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
                   <h4>2021 - 2023</h4>
-                  <p>Classes Préparatoires / Licence</p>
+                  <p>Classes Préparatoires MPSI/MP (ESTEM CASABLANCA)</p>
                   <span>Fondations en informatique et mathématiques</span>
                 </div>
               </div>

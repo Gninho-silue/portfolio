@@ -1,0 +1,191 @@
+[
+  {
+    "fields": [
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "description",
+        "type": "string"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "name": "imageUrl",
+        "type": "image",
+        "title": "ImageUrl"
+      }
+    ],
+    "name": "about",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "description",
+        "type": "string"
+      },
+      {
+        "name": "projectLink",
+        "type": "string"
+      },
+      {
+        "name": "codeLink",
+        "type": "string"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "name": "imageUrl",
+        "type": "image",
+        "title": "ImageUrl"
+      },
+      {
+        "of": [
+          {
+            "type": "string",
+            "name": "tag"
+          }
+        ],
+        "name": "tags",
+        "type": "array"
+      }
+    ],
+    "name": "works",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "options": {
+          "hotspot": true
+        },
+        "name": "imageUrl",
+        "type": "image",
+        "title": "ImageUrl"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ],
+    "name": "brands",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "description": "Ex: Programming Languages, Libraries & Frameworks, Databases, DevOps & Cloud Services...",
+        "name": "category",
+        "type": "string"
+      },
+      {
+        "name": "bgColor",
+        "type": "string",
+        "title": "BgColor"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "name": "icon",
+        "type": "image"
+      }
+    ],
+    "name": "skills",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "company",
+        "type": "string"
+      },
+      {
+        "option": {
+          "hotspot": true
+        },
+        "name": "imageUrl",
+        "type": "image",
+        "title": "ImageUrl"
+      },
+      {
+        "name": "feedback",
+        "type": "string"
+      }
+    ],
+    "name": "testimonials",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "name": "name",
+        "type": "string",
+        "title": "name"
+      },
+      {
+        "name": "company",
+        "type": "string"
+      },
+      {
+        "name": "desc",
+        "type": "string"
+      }
+    ],
+    "name": "workExperiences",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "name": "year",
+        "type": "string"
+      },
+      {
+        "of": [
+          {
+            "type": "workExperiences"
+          }
+        ],
+        "name": "works",
+        "type": "array"
+      }
+    ],
+    "name": "experiences",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "email",
+        "type": "string"
+      },
+      {
+        "name": "message",
+        "type": "text"
+      }
+    ],
+    "name": "contact",
+    "type": "document"
+  }
+]

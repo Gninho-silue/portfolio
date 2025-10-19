@@ -10,7 +10,7 @@ const CTA = () => {
     const cvUrl = images.Mon_cv;
     const link = document.createElement('a');
     link.href = cvUrl;
-    link.download = 'Silue_CV.pdf';
+    link.download = 'Curriculum Vitae - Silue.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
