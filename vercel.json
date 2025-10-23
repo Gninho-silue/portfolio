@@ -9,21 +9,21 @@
       }
     },
     {
-      "src": "api/index.js",
+      "src": "backend/server.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/api/index.js"
+      "dest": "/backend/server.js"
     },
     {
       "src": "/(.*)",
       "dest": "/frontend_react/build/$1"
     }
   ],
-   "env": {
+  "env": {
     "NODE_ENV": "production"
   }
 }
