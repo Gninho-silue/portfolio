@@ -37,9 +37,8 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
-// PDF files are served from public folder
-const Mon_cv = '/Mon_cv.pdf';
 import spring from '../assets/spring-boot.png';
+const Mon_cv = '/Mon_cv.pdf';
 
 const images = {
   email,
