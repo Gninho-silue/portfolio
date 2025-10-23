@@ -140,11 +140,10 @@ app.post('/api/contact', async (req, res) => {
   }
 });
 
-module.exports = app;
-// Démarrage
-// app.listen(PORT, () => {
-//   console.log('\n🚀 Serveur démarré sur le port', PORT);
-//   console.log('📧 Email:', process.env.EMAIL_USER ? '✅' : '❌');
-//   console.log('🗄️ Sanity:', process.env.SANITY_API_TOKEN ? '✅' : '❌');
-//   console.log('');
-// });
+// Démarrer le serveur
+app.listen(PORT, () => {
+  console.log('\n🚀 Serveur démarré sur le port', PORT);
+  console.log('📧 Email:', process.env.EMAIL_USER ? '✅' : '❌');
+  console.log('🗄️ Sanity:', process.env.SANITY_API_TOKEN ? '✅' : '❌');
+  console.log('');
+});
