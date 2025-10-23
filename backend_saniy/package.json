@@ -10,7 +10,7 @@
     "build": "sanity build",
     "deploy": "sanity deploy",
     "deploy-graphql": "sanity graphql deploy",
-    "deploy-studio": "sanity deploy --studio-host silue-portfolio-studio.sanity.studio"
+    "deploy-studio": "sanity deploy --studio-host silue-portfolio.sanity.studio"
   },
   "keywords": [
     "sanity"
