@@ -1,13 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { HiArrowRight, HiDownload } from 'react-icons/hi';
-import images from '../../constants/images';
 import './CTA.scss';
 
 const CTA = () => {
   const handleDownloadCV = () => {
     
-    const cvUrl = images.Mon_cv;
+    const cvUrl = '/Mon_cv.pdf';
     const link = document.createElement('a');
     link.href = cvUrl;
     link.download = 'Curriculum Vitae - Silue.pdf';
